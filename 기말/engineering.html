@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Rowdies:wght@300&display=swap" rel="stylesheet">
+	<style type="text/css">
+    .navibar{
+  height:60px;
+  padding-left:30px;
+  padding-right:30px;
+
+}
+.navibar #logo{
+  line-height:60px;
+}
+
+.navibar #logo img{
+  vertical-align: middle;
+}
+
+.navibar #menu{
+  float:right;
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+.navibar #menu li{
+  float:right;
+  margin-left:30px;
+  line-height:60px;
+}
+
+.navibar #menu li a {
+  color:#545454;
+  font-size:13px;
+  text-decoration:none;
+  font-weight:bold;
+    font-family: 'Hind', sans-serif;
+
+}
+.navibar #menu li a:hover {
+  color:skyblue;
+  font-size:13px;
+  text-decoration:none;
+  font-weight:bold;
+    font-family: 'Hind', sans-serif;
+
+}
+		       h1::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+h1:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+h1::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: hsl(200 100% 80%);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+h1 {
+  position: relative;
+  font-size: 30px;
+   font-family: 'Bangers', cursive;
+}
+h2{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 200;
+}
+h3{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 15px;
+  font-weight: 200;
+  color: skyblue;
+}
+
+.main {
+  block-size: 100%;
+  inline-size: 100%;
+}
+
+.main {
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  margin-top: 30px;
+  box-sizing: border-box;
+  display: grid;
+  place-content: center;
+  font-family: system-ui, sans-serif;
+
+}
+
+@media (orientation: landscape) {
+  .main {
+    grid-auto-flow: column;
+  }
+}
+.col4 {width: 33.33333333%; float: left; position: relative;}
+.transition {-webkit-transition: all .5s ease; -moz-transition: all .5s ease; -o-transition: all .5s ease;  transition: all .5s ease;}
+body .container {width: 70%; margin: 0 auto;}
+.fx2 .item {margin: 10px 0;}
+
+
+.fx2 .item {padding: 0;}
+.fx2 .item img {padding: 0 !important; display: block; max-width: 100%; height: auto;}
+.fx2 a:hover .item img, .fx2 a:focus .item img {opacity: 0.9; -webkit-transform: scale(0.95); transform: scale(0.95);}
+.fx2 h4, .fx2 p, .fx2 span {-webkit-transition: all .5s ease; -moz-transition: all .5s ease; -o-transition: all .5s ease;  transition: all .5s ease;} 
+.fx2 a .item h4 {font-family: 'Raleway', sans-serif; font-size: 16px; position: absolute; color:black; text-transform: uppercase; letter-spacing: 2px; position: absolute; top:42%; left:0; right:0; margin:0 auto; text-align: center; -webkit-filter: blur(5px); filter: blur(5px); opacity: 0;}
+.fx2 a:hover .item h4, .fx2 a:focus .item h4 {-webkit-filter: blur(0px); filter: blur(0px); opacity: 1;}
+.fx2 a .item p {font-family: 'Raleway', sans-serif; font-size: 8px; position: absolute; color:black; text-transform: uppercase; letter-spacing: 2px; position: absolute; top:53%; left:0; right:0; margin:0 auto; text-align: center; opacity: 0;}
+.fx2 a:hover .item p, .fx2 a:focus .item p {opacity: 1;}
+
+
+@media screen and (max-width: 991px) {
+.col4 {width: 50%;
+            float: left;}
+
+@media screen and (max-width: 580px) {
+.col4 {width: 100%;
+            float: left;}
+} 
+@media screen and (max-width: 200px) {
+.col4 {width: 50%;
+            float: left;}
+} 
+.transition img-responsive{
+  display: block;
+  position: center center;
+  }
+
+
+p.copyright {
+    margin: 15px 0 0;
+}
+	</style>
+	<title>Document</title>
+</head>
+<body>
+<div class="navibar">
+      <a href="index.html" id="logo">
+        <img src ="1x/자산 1.png" height="90%">
+      </a>
+      
+      <ul id="menu">
+              <li><a href="engineering.html">Engineering</a></li>
+        <li><a href="Industrial.html">Industrial</a></li>
+        <li><a href="convergence.html">Convergence</a></li>
+     
+        
+      </ul>
+    </div>
+	<div class="main">
+<h1>Design Engineering</h1>
+</div>
+<h2>The goal is to foster designers with engineering concepts and talented people who can design in various fields in the future</h2>
+
+<h3>The more you scroll down, the older it is :)</h3>
+
+<div class="container">
+    
+        <div class="fx2">
+
+            <a href="eng12.html">
+                <div class="item col4">
+                    <img class="transition img-responsive" src="1x/엔진12.png" width="99%" >
+                    <h4>Pla'c</h4>
+                    <p>2020 김정연</p>
+                </div>
+            </a>
+            <a href="eng11.html">
+                <div class="item col4">
+                    <img class="transition img-responsive" src="1x/엔진11.png" width="99%">
+                    <h4>S'ombre</h4>
+                    <p>2020 정혜승</p>
+                </div>
+            </a>
+            <a href="eng10.html">
+                <div class="item col4">
+                    <img class="transition img-responsive" src="1x/엔진10.png" width="99%">
+                    <h4>SOS</h4>
+                    <p>2020강다영, 차정민</p>
+                </div>
+            </a>
+            <a href="eng9.html">
+                <div class="item col4">
+                    <img class="transition img-responsive" src="1x/엔진9.png" width="99%">
+                    <h4>Pond Trip</h4>
+                    <p>2020 구현진, 박지윤, 용긍경</p>
+                </div>
+            </a>
+            <a href="eng8.html">
+                <div class="item col4">
+                    <img class="transition img-responsive" src="1x/엔진8.png" width="99%">
+                    <h4>Parking Go</h4>
+                    <p>2020 권세영, 주윤재</p>
+                </div>
+            </a>
+            <a href="eng7.html">
+                <div class="item col4">
+                    <img class="transition img-responsive" src="1x/엔진7.png">
+                    <h4>GEMO</h4>
+                    <p>2020 이선경</p>
+                </div>
+            </a>
+             <a href="eng5.html">
+                <div class="item col4">
+                    <img class="transition img-responsive" src="1x/엔진5.png">
+                    <h4>AIRCLO</h4>
+                    <p>2019 조수진, 신원식</p>
+                </div>
+            </a>
+            <a href="eng13.html">
+                <div class="item col4">
+                    <img class="transition img-responsive" src="1x/eng13.png">
+                    <h4>STICKY</h4>
+                    <p>2019 이민욱, 정지원 </p>
+                </div>
+            </a>
+           
+            <a href="eng4.html">
+                <div class="item col4">
+                    <img class="transition img-responsive" src="1x/엔진4.png">
+                    <h4>MAP</h4>
+                    <p>2019 하윤정</p>
+                </div>
+            </a>
+            <a href="eng3.html">
+                <div class="item col4">
+                    <img class="transition img-responsive" src="1x/엔진3.png" >
+                    <h4>Ecostep</h4>
+                    <p>2018 홍지은</p>
+                </div>
+            </a>
+            <a href="eng2.html">
+                <div class="item col4">
+                    <img class="transition img-responsive" src="1x/엔진2.png">
+                    <h4>Magnetic Blender</h4>
+                    <p>2018 김응림</p>
+                </div>
+            </a>
+            <a href="eng1.html">
+                <div class="item col4">
+                    <img class="transition img-responsive" src="1x/엔진1.png">
+                    <h4>Cleanit</h4>
+                    <p>2018 백선정</p>
+                </div>
+            </a>
+            
+        </div> 
+    </div>
+
+<footer>
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                   
+                    <p class="copyright text-muted small">Copyright &copy; 2020 JEONGMIN, KPU Design. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+
+</body>
+      
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  
+</body>
+</html>
